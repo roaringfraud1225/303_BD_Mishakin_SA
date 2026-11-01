@@ -111,6 +111,7 @@ INSERT INTO genres (id, name) VALUES (17, 'Thriller');
 INSERT INTO genres (id, name) VALUES (18, 'War');
 INSERT INTO genres (id, name) VALUES (19, 'Western');
 
+
 INSERT INTO users (id, first_name, last_name, email, gender, register_date, occupation_id) VALUES (1, 'Devonte', 'Stamm', 'marianne.krajcik@bartoletti.com', 'male', '2010-09-19', 20);
 INSERT INTO users (id, first_name, last_name, email, gender, register_date, occupation_id) VALUES (2, 'Merritt', 'Grimes', 'rempel.yvette@kertzmann.com', 'male', '2018-06-12', 14);
 INSERT INTO users (id, first_name, last_name, email, gender, register_date, occupation_id) VALUES (3, 'Dianna', 'Herzog', 'jarrell.stokes@gmail.com', 'female', '2013-11-19', 21);

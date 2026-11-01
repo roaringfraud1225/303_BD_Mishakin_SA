@@ -30,6 +30,7 @@ INSERT INTO movie_genres (movie_id, genre_id)
 SELECT m.id, g.id FROM movies m, genres g
 WHERE m.title = 'LoTR: The Gang and the Ring - Localized by Goblin' AND m.year = 2001 AND g.name IN ('Adventure', 'Comedy', 'Fantasy');
 
+
 INSERT INTO ratings (user_id, movie_id, rating, timestamp)
 VALUES ((SELECT id FROM users WHERE email = 'msa@yandex.com'),
         (SELECT id FROM movies WHERE title = 'Morbius' AND year = 2022),
